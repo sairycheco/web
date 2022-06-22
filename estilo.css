@@ -1,0 +1,84 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+html,
+body {
+    min-height: 100vh;
+    font-family: 'Lobster', cursive;
+}
+
+.menu {
+    position: fixed;
+}
+ 
+ 
+/*Helper classes*/
+.full-screen {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/*color*/
+#introduccion {
+    background-color: hotpink;
+}
+
+#Quien_soy {
+    background-color: rgb(182, 99, 151);
+}
+
+#cosas_que_me_hacen_feliz {
+
+    background-color: rgb(197, 95, 197);
+}
+
+#cosas_que_me_hacen_enojar {
+    background-color: rgb(155, 77, 118);
+}
+
+#cosas_que_me_hacen_unico {
+    background-color: rgb(207, 84, 207);
+}
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   flex-direction: row;
+   background-color: rgb(12, 12, 12); 
+    
+
+}
+
+.menu a {
+color: aqua;
+padding: 8px;
+
+
+}
+div.menu a:hover {
+    color: blanchedalmond;
+    background: black;
+    transition: all ease 1s;
+}
+
+.container h1 {
+    padding-top: 50px;
+}
